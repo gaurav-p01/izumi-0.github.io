@@ -1,0 +1,29 @@
+@font-face{
+    font-family: "persona";
+    src : url("fonts/persona.ttf")format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.8);
+    font-family: "persona" ;
+}
+p{
+    background-color : rgb(255, 0, 0);
+    font-size : 35px;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding : 75px;
+}
+header{
+    background-color : rgba(0,0,0,0.8);
+    color: rgba(255,255,255,1);
+    padding : 20px;
+    position: fixed;
+    width : 100%;
+}
+h1{
+    background-color: transparent;
+    font-size: 50px;
+}
